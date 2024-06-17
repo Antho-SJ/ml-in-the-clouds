@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+df_fusion_oversample.csv
+df_undersampling_fusion.csv
+df_undersampling_train.csv
+emotions_test.csv
+emotions_train.csv
+nuage_de_mots_love.png
