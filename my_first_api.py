@@ -13,8 +13,8 @@ app = FastAPI()
 model = load_model("my_first_api")
 
 # Create input/output pydantic models
-input_model = create_model("my_first_api_input", **{'Text': 'i wasnt feeling well yesterday morning afternoon so i just laid in bed and ended up in the all too familiar youtube black hole', 'Test_Counters': ('WASNT', 1)})
-output_model = create_model("my_first_api_output", prediction='joy')
+input_model = create_model("my_first_api_input", **{'Text': 'i feel numb the end of the world as we know it and i feel numb a href http leslielandberg'})
+output_model = create_model("my_first_api_output", prediction='sadness')
 
 
 # Define predict function
